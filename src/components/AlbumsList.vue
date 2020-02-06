@@ -21,18 +21,30 @@ export default {
 
 <style scoped>
     ul {
-        margin: 0;
-        margin-bottom: 20px;
+        flex-basis: 59%;
+        margin: 5px 10px;
         padding: 0;
         list-style: none;
     }
 
+    li {
+        display: flex;
+        margin-bottom: 3px;
+        background-color: #fff;
+    }
+
+    label {
+        flex-basis: 100%;
+        padding: 3px 5px;
+        cursor: pointer;
+    }
+
     input[type=radio]:checked + label {
-        color: blue;
+        background-color: #e0e0e0;
     }
 
     input[type=radio] + label:hover {
-        color: blue;
+        background-color: #e0e0e0;
     }
 
     input[type=radio] {

@@ -19,8 +19,19 @@ export default {
 
 <style scoped>
     ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
         margin: 0;
         padding: 0;
         list-style: none;
+    }
+
+    li {
+        margin-bottom: 10px;
+    }
+
+    img {
+        display: block;
     }
 </style>
